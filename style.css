@@ -20,6 +20,7 @@ header {
     align-items: center;
     padding: 10px;
     border-bottom: 15px ridge #40E1D1 ;
+    margin-bottom: 45px;
 }
 header ul li {
     padding: 5px;
@@ -115,4 +116,26 @@ ul {
 .form button:hover {
     background-position: left bottom;
     color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+   .container .name h1 {
+       font-size: 30px;
+   }
+
+   .container .name .h5 {
+       font-size: 15px;
+   }
+
+   #about p {
+       max-width: 80%;
+       text-align: justify;
+   }
 }
